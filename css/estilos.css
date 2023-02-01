@@ -1,0 +1,45 @@
+* {
+    font-family: 'Jura', sans-serif;
+}
+.columnas, .top {
+
+    column-count: 2;
+    height: 100%;
+}
+
+.cvFoto {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 40px;
+    height: 80%;
+}
+
+
+.negrita {
+    font-weight:bold;
+    text-decoration: underline;
+    font-family: 'Unbounded', cursive;
+}
+
+.iconInfo {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+  
+  .rowDiv {
+    display: flex;
+    align-items: center;
+  }
+
+  #botonArriba {
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    width: 40px;
+    transition: all 1s;
+  }
+  
